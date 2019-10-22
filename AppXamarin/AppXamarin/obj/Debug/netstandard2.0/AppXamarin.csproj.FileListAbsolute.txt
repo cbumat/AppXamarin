@@ -1,0 +1,14 @@
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\AppXamarin.csprojAssemblyReference.cache
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\Views\ListViewPage1.xaml.g.cs
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\AppXamarin.csproj.CoreCompileInputs.cache
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\AppXamarin.AssemblyInfoInputs.cache
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\AppXamarin.AssemblyInfo.cs
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\bin\Debug\netstandard2.0\AppXamarin.deps.json
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\bin\Debug\netstandard2.0\AppXamarin.dll
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\bin\Debug\netstandard2.0\AppXamarin.pdb
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\AppXamarin.dll
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\AppXamarin.pdb
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\Views\PrincipalMaster.xaml.g.cs
+C:\Users\Toka\Desktop\AppXamarin\AppXamarin\AppXamarin\obj\Debug\netstandard2.0\XamlC.stamp

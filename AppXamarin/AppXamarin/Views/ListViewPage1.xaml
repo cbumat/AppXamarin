@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:AppXamarin.ViewModels"
+             x:Class="AppXamarin.Views.ListViewPage1">
+
+    <ContentPage>
+
+        <StackLayout BackgroundColor="Blue">
+            <Label Text="Elige un país"/>
+            <StackLayout Orientation="Vertical">
+                <Picker x:Name="PickerOptions" HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>Spain</x:String>
+                        <x:String>France</x:String>
+                        <x:String>UK</x:String>
+                        <x:String>Alls</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+        </StackLayout>
+               
+
+    </ContentPage>
+    <!--<ContentPage>
+        <StackLayout Orientation="Vertical">
+            <Picker x:Name="PickerOptions" HorizontalOptions="FillAndExpand" SelectedItem="{Binding SelectedCountry}">
+                <Picker.Items>
+                    <x:String>Spain</x:String>
+                    <x:String>France</x:String>
+                    <x:String>UK</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+    </ContentPage>-->
+
+    <!--<CarouselPage.ItemTemplate>
+        
+        <DataTemplate x:Name="e">
+            <StackLayout x:Name="eo" VerticalOptions="StartAndExpand" Padding="50">
+
+
+                <Label Text="{Binding Name}" FontSize="30" TextColor="Fuchsia" HorizontalOptions="CenterAndExpand"></Label>
+                <Image Source="{Binding Image}"/>
+
+
+                    <StackLayout Orientation="Vertical">
+                        <Picker x:Name="PickerOptions" HorizontalOptions="FillAndExpand" SelectedItem="{Binding SelectedCountry}">
+                            <Picker.Items>
+                                <x:String>Spain</x:String>
+                                <x:String>France</x:String>
+                                <x:String>UK</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+
+
+            </StackLayout>
+            
+        </DataTemplate>
+        
+    </CarouselPage.ItemTemplate>-->
+
+
+</CarouselPage>

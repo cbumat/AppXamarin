@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:AppXamarin.ViewModels"
+             x:Class="AppXamarin.Views.Login">
+    <ContentPage.BindingContext>
+        <viewmodels:UserViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10, 5, 10, 5" BackgroundColor="LightBlue">
+            <Frame BorderColor="White" CornerRadius="25" OutlineColor="Black" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="5">
+                <StackLayout>
+                    <Label Text="Iniciar sesión" FontSize="20" HorizontalOptions="Center"/>
+
+                    <Entry Placeholder="Usuario" Text="{Binding User.Name}" HorizontalTextAlignment="Center"/>
+                    <Entry IsPassword="true" Placeholder="Contraseña" Text="{Binding User.Password}" HorizontalTextAlignment="Center"/>
+                    <Button Text="Iniciar sesión" Command="{Binding Login}" BackgroundColor="#007bff" TextColor="White"/>
+                    <Label x:Name="error"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
